@@ -3,12 +3,12 @@
 require('compiler/b2compiler.php');
 
 $b2compiler = new B2Compiler(array(
-	'googleClosureLibraryPath'  => '/Users/davidbillamboz/Tools/google-closure-library/',
+	'googleClosureLibraryPath'  => '~/Tools/google-closure-library/',
 	# relative to closureLibraryPath
 	'googleClosurePath'         => 'closure/goog/',
 	# relative to closureLibraryPath
 	'googleClosureBuilderPath'  => 'closure/bin/build/closurebuilder.py',
-	'googleClosureCompilerPath' => '/Users/davidbillamboz/Tools/google-closure-compiler/compiler.jar',
+	'googleClosureCompilerPath' => '~/Tools/google-closure-compiler/compiler.jar',
 	# path to source folder
 	'sourceFolderPath' => 'src',
 	# path to binary folder
